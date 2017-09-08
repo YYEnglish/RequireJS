@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script src="./require.js"></script>
+<script>
+        //加载tab.js中的代码，就需要把tab.js作为该文件的一个依赖项-->首页必须要有tab.js中的代码才能实现-->首页里面家在一个tab栏
+    //  -->在编写一个依赖的时候，只需要把依赖的js文件的路劲放在[]中，作为一个参数-->等到index.html在浏览器中加载的时候就会自动的去加载tab.js-->然后执行tab.js中的代码
+
+    //导入模块
+    require(["./tab.js"],function(){
+
+    });
+</script>
